@@ -1,10 +1,10 @@
 <footer class="app-footer">
     <div>
-    <a href="#">CoreUI Pro - Diomar Martinez VV</a>
-    <span>© 2018 creativeLabs.</span>
+    <a href="#">Te sirve, te lo regalo -ISW</a>
+    <span>© 2020 Universidad del Bio-Bio.</span>
     </div>
     <div class="ml-auto">
-    <span>Powered by</span>
-    <a href="https://coreui.io/pro/">CoreUI Pro</a>
+    <span>Creado por</span>
+    <a href="#">Mi</a>
     </div>
     </footer>

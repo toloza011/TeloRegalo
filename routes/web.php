@@ -17,7 +17,6 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
 Route::get('/','GuestController@index')->name('guest')->middleware('visitante');
 Route::get('/Perfil','UserController@perfil')->name('perfil');
 Route::put('Perfil/{id}','UserController@UpdatePerfil')->name('UpdatePerfil');

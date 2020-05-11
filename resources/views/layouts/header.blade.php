@@ -2,7 +2,7 @@
     <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
     <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">
+<a class="navbar-brand" href="{{route('home')}}">
     <span class="navbar-brand-full"><h4>Mi <b>Proyecto</b></h4></span>
     <img class="navbar-brand-minimized" src="img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
     </a>
@@ -260,9 +260,9 @@
     <strong>Settings</strong>
     </div>
     <a class="dropdown-item" href="{{route('perfil')}}">
-    <i class="fa fa-user"></i> Profile</a>
+    <i class="fa fa-user"></i> Perfil</a>
     <a class="dropdown-item" href="">
-    <i class="fa fa-wrench"></i> Settings</a>
+    <i class="fa fa-wrench"></i> Configuraciones</a>
     <a class="dropdown-item" href="#">
     <i class="fa fa-usd"></i> Payments
     <span class="badge badge-dark">42</span>
@@ -271,14 +271,12 @@
     <i class="fa fa-file"></i> Projects
     <span class="badge badge-primary">42</span>
     </a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">
-    <i class="fa fa-shield"></i> Lock Account</a>
     <a class="dropdown-item" href="{{ route('logout') }}"
     onclick="event.preventDefault();
-                    document.getElementById('logout-form').submit();">
+    document.getElementById('logout-form').submit();">
+    <i class="fa fa-shield"></i>
     {{ __('Logout') }}
-    <i class="fa cil-account-logout"></i>
+
     </a>
 
    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
